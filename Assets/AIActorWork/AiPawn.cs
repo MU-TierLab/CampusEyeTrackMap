@@ -15,11 +15,17 @@ public class AiPawn : MonoBehaviour
         
         agent = GetComponent<NavMeshAgent>();
         agent.destination = goal.position;
+        agent.isStopped = true;
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void StartPath()
+    {
+        agent.isStopped = false;
     }
 }

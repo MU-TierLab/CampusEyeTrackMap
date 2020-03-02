@@ -71,6 +71,7 @@ public class WebAPITesting : MonoBehaviour
     {
 
         //bool snowing = weatherObj.weather[0].main.Equals("Snow");
+
         Debug.Log(weatherObj.id);
        //if (snowing)
        //    SnowSystem.SetActive(true);
