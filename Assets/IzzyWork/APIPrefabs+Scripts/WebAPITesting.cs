@@ -110,10 +110,12 @@ public class WebAPITesting : MonoBehaviour
             while (!req.isDone)
                 yield return null;
             byte[] result = req.downloadHandler.data;
+            Debug.Log(result.ToString());
             string weatherJSON = System.Text.Encoding.Default.GetString(result);
             WeatherInfo info = JsonUtility.FromJson<WeatherInfo>(weatherJSON);
                 
             Debug.Log(info.id);
+            Debug.Log(weatherJSON);
             onSuccess(info);
         }
     }

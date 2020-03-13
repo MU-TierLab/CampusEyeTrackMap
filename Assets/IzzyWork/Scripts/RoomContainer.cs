@@ -36,7 +36,7 @@ public class RoomContainer : MonoBehaviour
         
     }
 
-    public GameObject FindRoomTarget(string BuildingNameGiven, int RoomNumber)
+    /*public GameObject FindRoomTarget(string BuildingNameGiven, int RoomNumber)
     {
         GameObject target;
 
@@ -48,6 +48,6 @@ public class RoomContainer : MonoBehaviour
             }
         }
 
-        return target;
-    }
+        //return target;
+    }*/
 }
