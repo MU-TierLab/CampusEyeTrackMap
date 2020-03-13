@@ -18,9 +18,11 @@ public class ButtonScript : MonoBehaviour
 
     public void StartPathFinding()
     {
+        Debug.Log("ButtonPressed");
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if(player != null)
         {
+            Debug.Log("player not nulll");
             player.GetComponent<AiPawn>().StartPath();
         }
     }

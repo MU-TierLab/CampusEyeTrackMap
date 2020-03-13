@@ -137,7 +137,7 @@ PrefabInstance:
     - target: {fileID: 892564977137808736, guid: 24b19b8ba8b662f44881ec14ab548402,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.3378
+      value: 1.18
       objectReference: {fileID: 0}
     - target: {fileID: 892564977137808736, guid: 24b19b8ba8b662f44881ec14ab548402,
         type: 3}
@@ -147,7 +147,7 @@ PrefabInstance:
     - target: {fileID: 892564977137808736, guid: 24b19b8ba8b662f44881ec14ab548402,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.851859
+      value: 6.6
       objectReference: {fileID: 0}
     - target: {fileID: 892564977137808736, guid: 24b19b8ba8b662f44881ec14ab548402,
         type: 3}
@@ -198,6 +198,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FastAIActor
+      objectReference: {fileID: 0}
+    - target: {fileID: 892564977137808742, guid: 24b19b8ba8b662f44881ec14ab548402,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 892564977137808743, guid: 24b19b8ba8b662f44881ec14ab548402,
         type: 3}
